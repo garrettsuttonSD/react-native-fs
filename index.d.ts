@@ -198,6 +198,16 @@ export function readFileAssets(
 /**
  * Android only
  */
+export function readFileAssetsChunk(
+	filepath: string,
+	length: number,
+	position: number,
+	encodingOrOptions?: any
+): Promise<string>
+
+/**
+ * Android only
+ */
 export function readFileRes(
 	filepath: string,
 	encodingOrOptions?: any
